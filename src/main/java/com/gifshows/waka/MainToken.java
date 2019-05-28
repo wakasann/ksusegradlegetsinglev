@@ -7,6 +7,7 @@ import java.util.regex.Matcher;
 
 public class MainToken {
 	//@link https://www.cnblogs.com/speeding/p/5097790.html
+	//@link https://blog.csdn.net/u012145252/article/details/80628451
 	private static final Pattern httpLinkPattern = Pattern.compile("https{0,1}[-A-Za-z0-9+&@#/%?=~_|!:,.;]+[-A-Za-z0-9+&@#/%=~_|]");
 	
 	public static void main(String[] args) {
