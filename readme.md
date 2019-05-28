@@ -14,6 +14,13 @@
 ![](images/2019-05-28_230941.jpg)
 
 
+# TODO
+
+- [ ] 可以通过 retrofit2 请求这个 Api`/rest/n/tokenShare/info/byText`
+
+
+
+
 -----
 
 以下纯属个人笔记
@@ -37,4 +44,6 @@ private static f c = ......
 
 `com.yxcorp.retrofit.consumer.f` 涉及到 `io.reactivex.subjects.PublishSubject` 这个包的`subscribe`,需要了解一下
 
+##### Reference
+1. [github task lists](https://help.github.com/en/articles/basic-writing-and-formatting-syntax#task-lists)
 
