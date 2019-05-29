@@ -1,31 +1,34 @@
-# Ñ§Ï°
+# å­¦ä¹ 
 
-·´±àÒëµÄ¿ìÊÖApk°æ±¾: 6.5.0.9223
+åç¼–è¯‘çš„å¿«æ‰‹Apkç‰ˆæœ¬: 6.5.0.9223
 
 
-×îÖÕÍ¨¹ı Fiddler5 ¼ì²â apk °æ±¾ Îª`6.5.1.9253`(ÊÖ»ú°²×°µÄ°æ±¾)£¬¶Ô Õ³Ìù°åÖĞµÄ·ÖÏíÁ´½Ó£¬ÓĞÒ»¸öÇëÇóÊÇ
+æœ€ç»ˆé€šè¿‡ Fiddler5 æ£€æµ‹ apk ç‰ˆæœ¬ ä¸º`6.5.1.9253`(æ‰‹æœºå®‰è£…çš„ç‰ˆæœ¬)ï¼Œå¯¹ ç²˜è´´æ¿ä¸­çš„åˆ†äº«é“¾æ¥ï¼Œæœ‰ä¸€ä¸ªè¯·æ±‚æ˜¯
 
 ![](images/2019-05-28_230520.jpg)
 
-Í¨¹ıÕâ¸öÇëÇó£¬Ö±½ÓÓĞApi ¿ÉÒÔ½øĞĞ´¦Àí½âÎö
+é€šè¿‡è¿™ä¸ªè¯·æ±‚ï¼Œç›´æ¥æœ‰Api å¯ä»¥è¿›è¡Œå¤„ç†è§£æ
 
-Í¨¹ı Postman¹¤¾ßÇëÇóÕâ¸öApi£¬·µ»Ø½á¹ûÖ±½Ó·µ»ØÁË£¬º¦×Ô¼ºÑĞ¾¿ÄÇÃ´¾Ã·´±àÒëµÄApkÎÄ¼ş.....
+é€šè¿‡ Postmanå·¥å…·è¯·æ±‚è¿™ä¸ªApiï¼Œè¿”å›ç»“æœç›´æ¥è¿”å›äº†ï¼Œå®³è‡ªå·±ç ”ç©¶é‚£ä¹ˆä¹…åç¼–è¯‘çš„Apkæ–‡ä»¶.....
 
 ![](images/2019-05-28_230941.jpg)
 
 
 # TODO
 
-- [ ] ¿ÉÒÔÍ¨¹ı retrofit2 ÇëÇóÕâ¸ö Api`/rest/n/tokenShare/info/byText`
+- [ ] å¯ä»¥é€šè¿‡ retrofit2 è¯·æ±‚è¿™ä¸ª Api`/rest/n/tokenShare/info/byText`
 
 
 
 
 -----
 
-ÒÔÏÂ´¿Êô¸öÈË±Ê¼Ç
+`original/META-INF/services/inject/invoker_info` è¿™ä¸ªæ–‡ä»¶ï¼Œå¥½åƒè®°å½•çš„æ˜¯æ‰€æœ‰ç±»å
 
-1. `com.kuaishou.gifshow.e.a` ÕÒµ½   
+
+ä»¥ä¸‹çº¯å±ä¸ªäººç¬”è®°
+
+1. `com.kuaishou.gifshow.e.a` æ‰¾åˆ°   
 
 ```
 public static String c() {
@@ -33,16 +36,16 @@ public static String c() {
 }
 ```
 
-Í¨¹ı [Android¼òÒ×Êı¾İ´æ´¢Ö®SharedPreferences](https://www.cnblogs.com/rwxwsblog/p/4802708.html) ÁË½âµ½£¬ÕâÊÇÒ»¸ö¼òÒ×µÄ´æ´¢Æ÷£¬Ó¦¸ÃÊÇ±£´æAppÖĞµÄÒ»Ğ©²Ù×÷µÄÁ´½ÓÁĞ±í
+é€šè¿‡ [Androidç®€æ˜“æ•°æ®å­˜å‚¨ä¹‹SharedPreferences](https://www.cnblogs.com/rwxwsblog/p/4802708.html) äº†è§£åˆ°ï¼Œè¿™æ˜¯ä¸€ä¸ªç®€æ˜“çš„å­˜å‚¨å™¨ï¼Œåº”è¯¥æ˜¯ä¿å­˜Appä¸­çš„ä¸€äº›æ“ä½œçš„é“¾æ¥åˆ—è¡¨
 
-`com.yxcorp.gifshow.util.config.ConfigHelper` ÖĞÎ¨Ò»Ê¹ÓÃÁËÕâ¸ö·½·¨
+`com.yxcorp.gifshow.util.config.ConfigHelper` ä¸­å”¯ä¸€ä½¿ç”¨äº†è¿™ä¸ªæ–¹æ³•
 
 ```
 private static f c = ......
 
 ```
 
-`com.yxcorp.retrofit.consumer.f` Éæ¼°µ½ `io.reactivex.subjects.PublishSubject` Õâ¸ö°üµÄ`subscribe`,ĞèÒªÁË½âÒ»ÏÂ
+`com.yxcorp.retrofit.consumer.f` æ¶‰åŠåˆ° `io.reactivex.subjects.PublishSubject` è¿™ä¸ªåŒ…çš„`subscribe`,éœ€è¦äº†è§£ä¸€ä¸‹
 
 ##### Reference
 1. [github task lists](https://help.github.com/en/articles/basic-writing-and-formatting-syntax#task-lists)

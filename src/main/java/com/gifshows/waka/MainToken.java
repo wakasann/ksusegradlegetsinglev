@@ -14,7 +14,7 @@ public class MainToken {
 	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		String gifshowShareLink = "�ù�ģ���㡾��ˮ�硿����һ��������Ʒ��һ�������� http://www.gifshow.com/s/yvEcB84Z ���ƴ����ӣ��򿪡����֡�ֱ�ӹۿ���";
+		String gifshowShareLink = "济公模仿秀【胶水哥】发了一个快手作品，一起来看！ http://www.gifshow.com/s/yvEcB84Z 复制此链接，打开【快手】直接观看！";
 		String shareLink = "";
 		Matcher matcher = httpLinkPattern.matcher(gifshowShareLink);
 		if(matcher.find()) {
@@ -28,7 +28,7 @@ public class MainToken {
 		
 		if(!shareLink.isEmpty()) {
 			System.out.println("need get PhotoIds param");
-			//��ȡphotoId
+			//获取photoId
 		}
 		
 	}
